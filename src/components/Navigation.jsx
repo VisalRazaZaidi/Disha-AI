@@ -56,7 +56,7 @@ const Navigation = ({ currentView, onViewChange, userProfile }) => {
             </div>
             <div>
               <h1 className="text-xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent leading-none">
-                Catechol AI
+                Disha AI
               </h1>
               <p className="text-xs text-gray-500 leading-none mt-0.5">Career & Skill Advisor</p>
             </div>

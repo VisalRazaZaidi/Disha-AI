@@ -232,6 +232,6 @@ export const healthCheck = functions.https.onRequest((req, res) => {
   res.status(200).json({
     status: 'healthy',
     timestamp: new Date().toISOString(),
-    service: 'catechol-ai-functions'
+    service: 'disha-ai-functions'
   });
 });

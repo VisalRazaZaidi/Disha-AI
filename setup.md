@@ -1,8 +1,8 @@
-# Catechol AI Setup Guide
+# Disha AI Setup Guide
 
 ## 🎯 Complete Project Structure Created!
 
-Your **Catechol AI** hackathon project is now fully built and ready to deploy. Here's what we've created:
+Your **Disha AI** hackathon project is now fully built and ready to deploy. Here's what we've created:
 
 ### ✅ Frontend Architecture (React + Vite)
 - **Landing Page**: Beautiful hero section with "From Career Confusion to Crystal Clarity"
@@ -39,7 +39,7 @@ cd functions && npm install && cd ..
 
 ### 2. Create Firebase Project
 1. Go to [Firebase Console](https://console.firebase.google.com/)
-2. Create new project: "catechol-ai"
+2. Create new project: "disha-ai"
 3. Enable Authentication, Firestore, Functions, Hosting
 
 ### 3. Configure Environment
@@ -49,8 +49,8 @@ cp .env.example .env
 
 # Add your Firebase config to .env
 VITE_FIREBASE_API_KEY=your_key_here
-VITE_FIREBASE_AUTH_DOMAIN=catechol-ai.firebaseapp.com
-VITE_FIREBASE_PROJECT_ID=catechol-ai
+VITE_FIREBASE_AUTH_DOMAIN=disha-ai.firebaseapp.com
+VITE_FIREBASE_PROJECT_ID=disha-ai
 # ... etc
 ```
 
@@ -147,4 +147,4 @@ This is your **winning feature** - when users click a career card, they see:
 4. **Prepare Sample Data**: Have test profile ready for demo
 5. **Practice Flow**: Landing → Onboarding → Dashboard → Skill Analysis
 
-Your **Catechol AI** project is now complete and ready to win the hackathon! 🏆⚗️✨
+Your **Disha AI** project is now complete and ready to win the hackathon! 🏆🌟✨

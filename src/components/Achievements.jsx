@@ -173,7 +173,7 @@ const Achievements = ({ userProfile }) => {
         {
           id: 'early_adopter',
           name: 'Early Adopter',
-          description: 'Join Catechol AI in its first month',
+          description: 'Join Disha AI in its first month',
           icon: Rocket,
           rarity: 'rare',
           points: 500,

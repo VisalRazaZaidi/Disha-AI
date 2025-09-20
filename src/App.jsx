@@ -19,7 +19,7 @@ import Navigation from './components/Navigation';
 import './index.css';
 
 /**
- * Enhanced Catechol AI - Career & Skill Advisor Platform
+ * Enhanced Disha AI - Career & Skill Advisor Platform
  * Gen AI-powered career guidance with gamification and analytics
  */
 function App() {
@@ -120,7 +120,7 @@ function App() {
         className="text-center"
       >
         <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary-600 mx-auto mb-4"></div>
-        <p className="text-gray-600">Loading Catechol AI...</p>
+        <p className="text-gray-600">Loading Disha AI...</p>
       </motion.div>
     </div>
   );

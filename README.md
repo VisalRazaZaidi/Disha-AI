@@ -1,10 +1,10 @@
-# Catechol AI - Your Personal Career Chemist
+# Disha AI - Your Personal Career Guide
 
 A hackathon-winning AI-powered career advisor platform specifically designed for Indian students. Built with React, Firebase, and Google Gemini AI.
 
 ## 🏆 Project Overview
 
-Catechol AI provides hyper-personalized career guidance using Google's cutting-edge AI technology. The platform analyzes students' interests, academic strengths, and existing skills to recommend career paths tailored for the Indian job market.
+Disha AI provides hyper-personalized career guidance using Google's cutting-edge AI technology. The platform analyzes students' interests, academic strengths, and existing skills to recommend career paths tailored for the Indian job market.
 
 ### Key Features
 
@@ -38,7 +38,7 @@ Catechol AI provides hyper-personalized career guidance using Google's cutting-e
 
 ```bash
 git clone <repository-url>
-cd catechol-ai
+cd disha-ai
 npm install
 ```
 
@@ -125,7 +125,7 @@ firebase emulators:start
 ## 📁 Project Structure
 
 ```
-catechol-ai/
+disha-ai/
 ├── src/
 │   ├── components/
 │   │   ├── LandingPage.jsx      # Hero section & landing
@@ -246,4 +246,4 @@ This is a hackathon project. For questions or collaboration opportunities, pleas
 
 ---
 
-**Catechol AI** - From Career Confusion to Crystal Clarity ⚗️✨
+**Disha AI** - From Career Confusion to Crystal Clarity 🌟✨

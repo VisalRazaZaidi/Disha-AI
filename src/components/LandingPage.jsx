@@ -40,7 +40,7 @@ const LandingPage = ({ onGetStarted }) => {
             className="flex items-center space-x-2"
           >
             <Beaker className="h-8 w-8 text-primary-600" />
-            <span className="text-xl font-bold text-primary-900">Catechol AI</span>
+            <span className="text-xl font-bold text-primary-900">Disha AI</span>
           </motion.div>
         </nav>
       </header>
@@ -131,7 +131,7 @@ const LandingPage = ({ onGetStarted }) => {
 
       {/* Footer */}
       <footer className="text-center py-8 text-gray-500 border-t border-gray-200">
-        <p>&copy; 2025 Catechol AI. Your Personal Career Chemist.</p>
+        <p>&copy; 2025 Disha AI. Your Personal Career Guide.</p>
       </footer>
     </div>
   );

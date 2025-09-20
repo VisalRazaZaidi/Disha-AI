@@ -27,7 +27,7 @@
 
 #### 3. **Improved User Experience**
 - Users now see the beautiful marketing/landing page
-- Proper introduction to Catechol AI platform
+- Proper introduction to Disha AI platform
 - Clear call-to-action button to start journey
 
 ## 🎯 **Result**: 
@@ -37,7 +37,7 @@
 ✅ **Marketing Impact**: Showcases platform capabilities before onboarding
 
 ## 🌟 **Current Flow**:
-1. **Landing Page** → Shows Catechol AI branding and features
+1. **Landing Page** → Shows Disha AI branding and features
 2. **Click "Find Your Path"** → Proceeds to onboarding wizard
 3. **Complete Onboarding** → Enters the full platform dashboard
 

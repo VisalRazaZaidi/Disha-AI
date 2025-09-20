@@ -1,6 +1,6 @@
 {
-  "name": "catechol-ai-functions",
-  "description": "Cloud Functions for Catechol AI",
+  "name": "disha-ai-functions",
+  "description": "Cloud Functions for Disha AI",
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc --watch",

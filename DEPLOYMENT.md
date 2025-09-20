@@ -1,8 +1,8 @@
-# Catechol AI - Gen AI Exchange Hackathon Platform
+# Disha AI - Gen AI Exchange Hackathon Platform
 
 ## 🚀 Project Overview
 
-Catechol AI is a comprehensive AI-powered career and skill development platform designed to win hackathons with its innovative features and exceptional user experience. This platform combines cutting-edge AI technology with gamification elements to create an engaging learning environment.
+Disha AI is a comprehensive AI-powered career and skill development platform designed to win hackathons with its innovative features and exceptional user experience. This platform combines cutting-edge AI technology with gamification elements to create an engaging learning environment.
 
 ## ✨ Key Features
 
@@ -52,7 +52,7 @@ Catechol AI is a comprehensive AI-powered career and skill development platform 
 ## 📁 Project Structure
 
 ```
-catechol-ai/
+disha-ai/
 ├── src/
 │   ├── components/
 │   │   ├── Dashboard.jsx           # Main dashboard with overview
@@ -179,7 +179,7 @@ firebase deploy
 ```bash
 # Clone the repository
 git clone <your-repo-url>
-cd catechol-ai
+cd disha-ai
 
 # Install dependencies
 npm install
