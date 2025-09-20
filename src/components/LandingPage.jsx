@@ -131,7 +131,7 @@ const LandingPage = ({ onGetStarted }) => {
 
       {/* Footer */}
       <footer className="text-center py-8 text-gray-500 border-t border-gray-200">
-        <p>&copy; 2025 Disha AI. Your Personal Career Guide.</p>
+        <p>&copy;  2025 Disha AI. Made with ❤️ by Aditya.</p>
       </footer>
     </div>
   );
