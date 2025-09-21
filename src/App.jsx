@@ -16,6 +16,7 @@ import Leaderboard from './components/Leaderboard';
 import Achievements from './components/Achievements';
 import Navigation from './components/Navigation';
 import ChatBot from './components/ChatBot';
+import Footer from './components/Footer';
 
 import './index.css';
 
@@ -179,7 +180,7 @@ function App() {
           onViewChange={setCurrentView}
           userProfile={userProfile}
         />
-        <main className="pt-16">
+        <main className="pt-16 pb-16">
           <AnimatePresence mode="wait">
             <motion.div
               key={currentView}
@@ -192,6 +193,7 @@ function App() {
             </motion.div>
           </AnimatePresence>
         </main>
+        <Footer variant="fixed" className="fixed bottom-0 left-0 right-0 z-10" />
       </div>
     );
   };

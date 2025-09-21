@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Sparkles, ArrowRight, Beaker, Target, Users } from 'lucide-react';
 import { useAuth } from '../hooks/useAuth';
+import Footer from './Footer';
 
 /**
  * Landing page component with hero section and brand introduction
@@ -131,9 +132,7 @@ const LandingPage = ({ onGetStarted }) => {
       </main>
 
       {/* Footer */}
-      <footer className="text-center py-8 text-gray-500 border-t border-gray-200">
-        <p>&copy;  2025 Disha AI. Made with ❤️ by Aditya.</p>
-      </footer>
+      <Footer variant="transparent" className="border-t border-gray-200" />
     </div>
   );
 };

@@ -14,6 +14,7 @@ import {
   RefreshCw
 } from 'lucide-react';
 import { generateCareerResponse } from '../services/chatService';
+import Footer from './Footer';
 
 const ChatBot = ({ userProfile }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -379,6 +380,7 @@ What would you like to explore first?`
                     </button>
                   </div>
                 </div>
+                <Footer variant="minimal" className="text-center border-t border-gray-100" />
               </div>
             )}
           </motion.div>

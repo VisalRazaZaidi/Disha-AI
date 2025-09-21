@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, ArrowRight, Check, Plus, X } from 'lucide-react';
 import { useAuth } from '../hooks/useAuth';
 import { saveUserProfile } from '../services/userService';
+import Footer from './Footer';
 
 /**
  * Multi-step onboarding wizard component
@@ -340,6 +341,7 @@ const OnboardingWizard = ({ onComplete }) => {
           </div>
         </div>
       </div>
+      <Footer variant="default" />
     </div>
   );
 };

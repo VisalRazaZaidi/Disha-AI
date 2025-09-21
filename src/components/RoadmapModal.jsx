@@ -5,6 +5,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { useAuth } from '../hooks/useAuth';
 import { generateSkillRoadmap } from '../services/userService';
+import Footer from './Footer';
 
 /**
  * Roadmap modal component with detailed skill roadmap and skill gap analysis
@@ -304,6 +305,7 @@ const RoadmapModal = ({ career, userSkills = [], onClose }) => {
                 <span>Refresh Roadmap</span>
               </button>
             </div>
+            <Footer variant="minimal" className="border-t border-gray-200 mt-4" />
           </div>
         </motion.div>
       </div>
