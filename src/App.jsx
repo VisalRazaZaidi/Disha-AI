@@ -15,6 +15,7 @@ import Analytics from './components/Analytics';
 import Leaderboard from './components/Leaderboard';
 import Achievements from './components/Achievements';
 import Navigation from './components/Navigation';
+import ChatBot from './components/ChatBot';
 
 import './index.css';
 
@@ -82,6 +83,7 @@ function App() {
    * Handle landing page "Get Started" click
    */
   const handleGetStarted = () => {
+    console.log('handleGetStarted called, setting appState to onboarding');
     // Always proceed to onboarding, authentication will be handled there
     setAppState('onboarding');
   };
@@ -90,10 +92,12 @@ function App() {
    * Handle onboarding completion
    */
   const handleOnboardingComplete = () => {
+    console.log('handleOnboardingComplete called, setting appState to dashboard');
     setAppState('dashboard');
     // Create a demo user ID for development if no user is authenticated
     if (!user) {
       const demoUserId = 'demo-user-' + Date.now();
+      console.log('Creating demo user profile:', demoUserId);
       getUserProfile(demoUserId).then(profile => {
         setUserProfile(profile);
       });
@@ -192,6 +196,8 @@ function App() {
     );
   };
 
+  console.log('App render - appState:', appState, 'userProfile:', userProfile);
+
   return (
     <div className="App">
       <AnimatePresence mode="wait">
@@ -221,6 +227,11 @@ function App() {
 
         {appState === 'dashboard' && renderAppView()}
       </AnimatePresence>
+
+      {/* ChatBot - Available on all pages except landing */}
+      {appState !== 'landing' && (
+        <ChatBot userProfile={userProfile} />
+      )}
     </div>
   );
 }

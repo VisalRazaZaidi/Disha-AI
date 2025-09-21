@@ -9,6 +9,7 @@ import { saveUserProfile } from '../services/userService';
  * @param {Function} onComplete - Callback when onboarding is completed
  */
 const OnboardingWizard = ({ onComplete }) => {
+  console.log('OnboardingWizard component mounted');
   const { user } = useAuth();
   const [currentStep, setCurrentStep] = useState(1);
   const [isLoading, setIsLoading] = useState(false);

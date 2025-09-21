@@ -17,11 +17,12 @@ const LandingPage = ({ onGetStarted }) => {
   const handleGetStarted = async () => {
     try {
       setIsLoading(true);
-      await signInAnonymously();
+      // For development, skip Firebase auth and go directly to onboarding
+      console.log('Starting onboarding process...');
       onGetStarted();
     } catch (error) {
-      console.error('Error signing in:', error);
-      // Still proceed to onboarding even if anonymous sign-in fails
+      console.error('Error starting onboarding:', error);
+      // Still proceed to onboarding
       onGetStarted();
     } finally {
       setIsLoading(false);
