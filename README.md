@@ -42,6 +42,7 @@ cd disha-ai
 npm install
 ```
 
+
 ### 2. Firebase Setup
 
 ```bash
@@ -242,7 +243,7 @@ This project is built for the Google Gen AI Exchange Hackathon.
 
 ## 🤝 Contributing
 
-This is a hackathon project. For questions or collaboration opportunities, please reach out to the development team.
+This is a hackathon project. For questions or collaboration opportunities, please reach out to me.
 
 ---
 
