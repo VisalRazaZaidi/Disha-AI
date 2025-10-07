@@ -242,8 +242,8 @@ The platform's most innovative feature visually compares required skills vs. use
 This project is built for the Google Gen AI Exchange Hackathon.
 
 ## 🤝 Contributing
-
-This is a hackathon project. For questions or collaboration opportunities, please reach out to me.
+For contribution raise the PR
+For questions or collaboration opportunities, please reach out to me.
 
 ---
 
