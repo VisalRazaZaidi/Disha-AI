@@ -232,10 +232,9 @@ const Dashboard = ({ userProfile, onEditProfile }) => {
 
   // Show the dashboard directly since we have the profile
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-100 
-      dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
-      {/* Main Content */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div className="min-h-screen flex flex-col overflow-x-hidden bg-fixed bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-100 
+      dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 overflow-y-auto">
+      <main className="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Welcome Section */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
